@@ -1,1 +1,1 @@
-# mathematics
+Just a repo for my math problems and notes.
