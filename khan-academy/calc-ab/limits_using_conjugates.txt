@@ -139,3 +139,38 @@ ___ = _________________
 ________________ = ___________ = _____ = -1
 
 2+(sqrt[4(4)-12]   2+(sqrt[4])     4
+
+the limit -1
+
+=======================================
+
+4) 
+                  x-2
+Find lim x>2  ____________
+
+              1-sqrt[3x-5]
+
+# Substituting 2 for x returns 0/0, so we can try rationalizing the expression instead
+
+# Substitute y for simplicity
+y = sqrt[3x-5]
+
+# Rationalize the expression
+
+x-2   1+y   (x-2)(1+y)                                (x-2)(1+y)   1+y   
+___ * ___ = __________ = ________ = ______ = ______ = __________ = ___ = 
+
+1-y   1+y      1-y2      1-(3x-5)   1-3x+5   -3x+6     -3(x-2)      -3
+
+
+1+(sqrt[3x-5])
+____________
+
+    -3
+
+# Substitute 2 for x in our new expression
+
+1+(sqrt[3(2)-5])    1+1    2
+________________ =  ___ = ___ = -2/3
+
+      -3                  -3
