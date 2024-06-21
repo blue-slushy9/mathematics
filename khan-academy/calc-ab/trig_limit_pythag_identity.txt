@@ -1,0 +1,57 @@
+# Sample problem
+
+             1-cos(theta)     1-(1)       0      0
+lim theta>0  ____________ = _________ = _____ = ___ , inconclusive
+
+             2sin2(theta)   2(sin(0))2  2(0)2    0
+
+# Double-angle identity
+
+2sin2(theta) = 2(sin(theta))2
+
+# Pythagorean identities
+
+sin2(theta) = 1 - cos2(theta)
+
+2sin2(theta) = 2(1 - cos2(theta))
+
+cos2(theta) = (cos(theta))2
+
+# Try substituting the above
+
+            1-cos(theta)               0                   0              0        0
+lim theta>0 ________________ = __________________ = ________________ = ________ = ___ , inconclusive
+
+            2(1-cos2(theta))   2(1-(cos(theta)2))    2(1-(cos(0)2))    2(1-(1))    0
+
+
+# Try substituting y for 1-cos(theta) for simplicity -- WRONG
+
+               y        1           1               1           1
+lim theta>0 _______ =  ____ = _______________ = ___________ =  ___ , limit does not exist?
+
+              2y2       2y    2(1-cos(theta=0))   2(1-1)        0
+
+# The above is wrong because y = (1 - cos(theta)), not (1 - cos(theta)2); 
+# you have to resolve the cosine portion first before you subtract from 1
+
+
+# WALKTHROUGH
+
+# Pythagorean identities
+
+sin2(theta) + cos2(theta) = 1
+
+sin2(theta) = 1 - cos2(theta)
+
+2(sin2(theta)) = 2(1 - cos2(theta))
+
+# Substitute
+
+             1-cos(theta)              1-cos(theta)
+lim theta>0 _______________ = _______________________________ = 
+
+            2(1-cos2(theta)    2(1+cos(theta))(1-cos(theta))
+            
+            # Think a2-b2
+
