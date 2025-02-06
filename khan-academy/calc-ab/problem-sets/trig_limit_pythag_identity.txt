@@ -1,0 +1,107 @@
+# Video sample problem 1
+
+
+             1-cos(theta)     1-(1)       0      0
+lim theta>0  ____________ = _________ = _____ = ___ , inconclusive
+
+             2sin2(theta)   2(sin(0))2  2(0)2    0
+
+# Double-angle identity ############################################################################
+
+2sin2(theta) = 2(sin(theta))2
+
+# Pythagorean identities ###########################################################################
+
+sin2(theta) = 1 - cos2(theta)
+
+2sin2(theta) = 2(1 - cos2(theta))
+
+cos2(theta) = (cos(theta))2
+
+# Try substituting the above #######################################################################
+
+            1-cos(theta)               0                   0              0        0
+lim theta>0 ________________ = __________________ = ________________ = ________ = ___ , inconclusive
+
+            2(1-cos2(theta))   2(1-(cos(theta)2))    2(1-(cos(0)2))    2(1-(1))    0
+
+
+# Try substituting y for 1-cos(theta) for simplicity -- WRONG ######################################
+
+               y        1           1               1           1
+lim theta>0 _______ =  ____ = _______________ = ___________ =  ___ , limit does not exist?
+
+              2y2       2y    2(1-cos(theta=0))   2(1-1)        0
+
+# The above is wrong because y = (1 - cos(theta)), not (1 - cos(theta)2); 
+# you have to resolve the cosine portion first before you subtract from 1
+
+####################################################################################################
+
+# Now try substituting y for cos(theta) instead
+
+              1 - y 
+lim theta>0 _________
+
+             2(1-y2)
+
+# Now it's clear why I was wrong in the above attempt
+
+####################################################################################################
+
+# WALKTHROUGH
+
+# Pythagorean identities
+
+sin2(theta) + cos2(theta) = 1
+
+sin2(theta) = 1 - cos2(theta)
+
+2(sin2(theta)) = 2(1 - cos2(theta))
+
+# Substitute
+
+             1-cos(theta)              1-cos(theta)                   1                1             1
+lim theta>0 _______________ = _______________________________ = _______________ = _____________ = _________ =
+
+            2(1-cos2(theta)    2(1+cos(theta))(1-cos(theta))    2(1+cos(theta))   2+2cos(theta)   2+2cos(0)
+            
+            # Think a2-b2   >  # (a+b)(a-b) = a2-b2
+
+  1      1
+_____ = ___
+
+ 2+2     4
+
+####################################################################################################
+
+# Video sample problem 2
+
+@ = theta
+
+# Try substituting (-pi/4) for @
+
+                  
+                 1+sqrt(2)sin(@)     1+sqrt(2)*(-sqrt(2)/2)    1+(-2/2)    1-1     0
+lim @ > (-pi/4) _________________ = ________________________ = ________ = _____ = ___ , inconclusive
+
+                    cos(2@)               cos(-2pi/4)             0         0      0
+
+
+# Unit circle values
+
+            sqrt(2)
+(-pi/4) = - _______ 
+            
+               2
+
+
+# Try rationalizing the expression
+
+y = sqrt(2)sin(@)
+
+1 + y     1 - y      1 - y2      1 - (2sin2(@))    1 - 2sin2@   1 - 2(1 - cos2@)   1 - 2 + 2cos2@   -1 + 2cos2@
+_______ * _____ = ____________ = _______________ = __________ = ________________ = ______________ = ____________
+
+cos(2@)   1 - y   cos(2@)(1-y)    
+

@@ -1,0 +1,176 @@
+1) FAIL: my mistake was that the y portion goes in parentheses, so the
+         negative gets distributed: 9-(y2) = 9-(6x+21) = 9-6x-21 = -6x-12 =
+         -6(x+2)
+
+               
+               3 - sqrt[6x+21]
+Find lim x>-2  _______________
+
+                    x + 2
+
+=======================================
+
+STRATEGY A
+
+# Substitute y for sqrt[6x+21]
+y = sqrt[6x+21]
+
+# Try to rationalize expression
+
+3-y     3+y        9-y2             9-6x+21     -6x+30       -6(x-5)
+___  *  ___  =  __________       =  _______ = ___________ = 
+
+x+2     3+y     (x+2)(3+y)             ""      (x+2)(3+y)
+
+
+# Can we divide by 15 instead to get (x+2) ?
+
+1    30   30
+__ * __ = __ = 2
+
+15   1    15              
+                        
+                         
+1    -6   -6   -2         
+__ * __ = __ = ___         
+
+15   1    15    5
+
+# Then substitute -2 for x
+
+-6(-2)+30      -12+30     18
+__________   =         = _____
+
+3(-2)+(-2)y+2y+6 = -6+(-2)y+2y+6 = -2y+2y = 0      
+
+=======================================
+
+STRATEGY B
+
+# Try to cancel out the denominator (x+2)
+
+
+# Substitute -2 for x
+x = -2
+
+y = sqrt[6(-2)+21] = sqrt[-12+21]=sqrt[9] = 3
+
+y = 3
+
+3-y   (x-2)   (3-y)(x-2)    0
+___ * _____ = __________ = ___
+
+x+2   (x-2)   (x+2)(x-2)    0                           
+
+===============
+
+# Variation on attempt 1
+
+9-y2          9-6x+21
+_____      =  
+
+(x+2)(3+y)
+
+=======================================
+
+2) 
+                  x-3
+Find lim x>3 ________________
+
+              sqrt[4x+4]-4
+
+
+# If we substitute 3 for x in the above expression, we get 0/0; so we can try rationalizing it instead
+
+# Substitute y for simplicity
+y = sqrt[4x+4]
+
+
+# Multiply by conjugate
+x-3   y+4   (x-3)(y+4)      ''        ''       (x-3)(y+4)    y+4    
+___ * ___ = __________ = ________ = _______ = ____________ = ____ = 
+
+y-4   y+4    (y2)-16    (4x+4)-16    4x-12       4(x-3)       4
+
+
+sqrt[4x+4]+4   sqrt[4x+4]+4    
+____________ = _____________
+
+     4               4       
+
+# Now we can substitute 3 for x
+sqrt[4(3)+4]+4   sqrt[12+4]+4   sqrt[16]+4   4+4   8
+______________ = ____________ =            =     = _ = 2
+
+      4               4                            4
+
+limit is 2
+
+=======================================
+
+3)
+              2-sqrt[4x-12]
+Find lim x>4  _____________
+
+                   x-4
+
+# Substituting 4 for x results in 0/0, so we can rationalize the expression instead
+
+# Substitute y
+y = sqrt[4x-12]
+
+# Multiply by conjugate
+
+2-y   2+y     4-(y2)     4-(4x-12)   4-4x+12   -4x+16     -4(x-4)
+___ * ___ = __________ = _________ = _______ = _______ = __________ = 
+
+x-4   2+y   (x-4)(2+y)      ''         ''        ''      (x-4)(2+y)
+
+
+-4           -4         
+___ = _________________
+
+2+y    2+(sqrt[4x-12])
+
+
+# Substitute 4 for x in new expression
+
+      -4               -4         -4
+________________ = ___________ = _____ = -1
+
+2+(sqrt[4(4)-12]   2+(sqrt[4])     4
+
+the limit -1
+
+=======================================
+
+4) 
+                  x-2
+Find lim x>2  ____________
+
+              1-sqrt[3x-5]
+
+# Substituting 2 for x returns 0/0, so we can try rationalizing the expression instead
+
+# Substitute y for simplicity
+y = sqrt[3x-5]
+
+# Rationalize the expression
+
+x-2   1+y   (x-2)(1+y)                                (x-2)(1+y)   1+y   
+___ * ___ = __________ = ________ = ______ = ______ = __________ = ___ = 
+
+1-y   1+y      1-y2      1-(3x-5)   1-3x+5   -3x+6     -3(x-2)      -3
+
+
+1+(sqrt[3x-5])
+____________
+
+    -3
+
+# Substitute 2 for x in our new expression
+
+1+(sqrt[3(2)-5])    1+1    2
+________________ =  ___ = ___ = -2/3
+
+      -3                  -3
